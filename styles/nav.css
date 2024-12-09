@@ -1,0 +1,26 @@
+nav {
+    display: flex; /*Faz com que um elemento fique do lado do outro */
+    justify-content: space-between;
+    align-items: center;
+
+    line-height: 0;
+    padding-block: 20px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;  /* espaço entre elementos*/
+
+    padding-block: 8px;
+}
+
+nav ul li:last-child img{
+    width: 40px;
+    height: 40px;
+    object-fit: conver;  /* Ele cobre todo o tamanho da img */
+    border-radius: 50%;
+}
+
